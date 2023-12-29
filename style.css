@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:wght@100;200;400;600&display=swap');
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(185, 75%, 39%);
+    background: url("./images/bg-pattern-top.svg") left top no-repeat, url("./images/bg-pattern-bottom.svg") right bottom no-repeat hsl(185, 75%, 39%) ;
+}
+
+.container {
+    max-width: 640px;
+    min-width: 500px;
+    width: 93%;
+    margin: 70px auto;
+    border-radius: 18px;
+    text-align: center;
+    background-color: white;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+header > img {
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.photo > img {
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+}
+
+h1 {
+    margin-bottom: 7px;
+}
+
+h1 > span, p{
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+p {
+    font-size: 21px;
+    margin: 35px;
+    padding: 1px 25px;
+}
+
+.paragraph {
+    margin-top: 0;
+}
+
+.indicadores {
+    display: flex;
+    justify-content: center;
+}
